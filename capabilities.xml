@@ -50,7 +50,9 @@
    <colorScheme name="psn">
       <label>PSN</label>
    </colorScheme>
-
+<colorScheme name="oled">
+      <label>OLED</label>
+   </colorScheme>
   
 
    <variant name="simple">
