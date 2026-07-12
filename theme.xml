@@ -944,11 +944,18 @@
    <variant name="simple3">
       <view name="gamelist">
       <video name="background2">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 00.35</pos>
+         <cropSize>1 0.7</cropSize>
+         <cropPos>0.5 0.6</cropPos>
+         <pillarboxes>false</pillarboxes>
+            <iterationCount>1</iterationCount>
+            <scrollFadeIn>true</scrollFadeIn>
+            <onIterationsDone>image</onIterationsDone>
          <imageType>fanart, screenshot, titlescreen, cover</imageType>
          <stationary>always</stationary>
+         <imageCropSize>1 0.7</imageCropSize>
+         <imageCropPos>0.5 0</imageCropPos>
          <color>FFFFFF</color>
          <colorEnd>000000</colorEnd>
          <gradientType>vertical</gradientType>
