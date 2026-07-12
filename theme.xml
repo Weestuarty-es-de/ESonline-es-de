@@ -159,7 +159,7 @@
       </view>
    </variant>
 
-   <variant name="simple, simple2, grid">
+   <variant name="simple, simple2, simple3, grid">
       <view name="system">
          <carousel name="system-carousel">
             <origin>0.5 0.5</origin>
@@ -794,7 +794,7 @@
          </helpsystem>
       </view>
    </variant>
-<variant name="simple2">
+<variant name="simple2, simple3">
       <view name="gamelist">
          <carousel name="system-carousel">
             <origin>0.5 0.5</origin>
@@ -941,7 +941,21 @@
       </image>
       </view>
    </variant>
-
+   <variant name="simple3">
+      <view name="gamelist">
+      <video name="background2">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <imageType>fanart, screenshot, titlescreen, cover</imageType>
+         <stationary>always</stationary>
+         <color>FFFFFF</color>
+         <colorEnd>000000</colorEnd>
+         <gradientType>vertical</gradientType>
+         <zIndex>0</zIndex>
+      </video>
+      </view>
+   </variant>
    <view name="all">
       <sound name="systembrowse">
          <path>./assets/sounds/systembrowse.wav</path>

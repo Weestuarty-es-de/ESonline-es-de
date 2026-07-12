@@ -72,6 +72,10 @@
       <label>Simple w/fanart bg</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="simple3">
+      <label>Simple w/video bg</label>
+      <selectable>true</selectable>
+   </variant>
 
    <transitions name="animated">
       <label>Animated</label>
