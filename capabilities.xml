@@ -72,8 +72,15 @@
       <label>Simple w/fanart bg</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="simple5">
+      <label>Simple w/video (original)</label>
+      <selectable>true</selectable>
+      </variant>
    <variant name="simple3">
-      <label>Simple w/video bg</label>
+      <label>Simple w/video (cropped)</label>
+      <selectable>true</selectable>
+   </variant><variant name="simple4">
+      <label>Simple w/video (filled)</label>
       <selectable>true</selectable>
    </variant>
 

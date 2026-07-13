@@ -159,7 +159,7 @@
       </view>
    </variant>
 
-   <variant name="simple, simple2, simple3, grid">
+   <variant name="simple, simple2, simple3,simple4,simple5 grid">
       <view name="system">
          <carousel name="system-carousel">
             <origin>0.5 0.5</origin>
@@ -794,7 +794,7 @@
          </helpsystem>
       </view>
    </variant>
-<variant name="simple2, simple3">
+<variant name="simple2, ,simple3, simple4, simple5">
       <view name="gamelist">
          <carousel name="system-carousel">
             <origin>0.5 0.5</origin>
@@ -946,6 +946,7 @@
       <video name="background2">
          <origin>0.5 0.5</origin>
          <pos>0.5 00.35</pos>
+         <size>1 0</size>
          <cropSize>1 0.7</cropSize>
          <cropPos>0.5 0.6</cropPos>
          <pillarboxes>false</pillarboxes>
@@ -961,6 +962,57 @@
          <gradientType>vertical</gradientType>
          <zIndex>0</zIndex>
       </video>
+      </view>
+   </variant>
+   <variant name="simple4">
+      <view name="gamelist">
+      <video name="background2">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 00.4</pos>
+         <size>1 0.8</size>
+         <pillarboxes>false</pillarboxes>
+            <iterationCount>1</iterationCount>
+            <scrollFadeIn>true</scrollFadeIn>
+            <onIterationsDone>image</onIterationsDone>
+         <imageType>fanart, screenshot, titlescreen, cover</imageType>
+         <stationary>always</stationary>
+         <color>FFFFFF</color>
+         <colorEnd>000000</colorEnd>
+         <gradientType>vertical</gradientType>
+         <zIndex>0</zIndex>
+      </video>
+      </view>
+      </variant>
+      <variant name="simple5">
+      <view name="gamelist">
+      <video name="background3">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 00.295</pos>
+         <size>0 0.45</size>
+         <cropSize>1 0.7</cropSize>
+         <cropPos>0.5 0.6</cropPos>
+         <pillarboxes>false</pillarboxes>
+            <iterationCount>1</iterationCount>
+            <scrollFadeIn>true</scrollFadeIn>
+            <onIterationsDone>none</onIterationsDone>
+         <imageType>none</imageType>
+         <videoCornerRadius>0.01</videoCornerRadius>
+         <color>FFFFFF</color>
+         <zIndex>1</zIndex>
+      </video>
+       <image name="background2">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <imageType>fanart, screenshot, titlescreen, cover</imageType>
+         <stationary>always</stationary>
+         <color>FFFFFF</color>
+         <colorEnd>000000</colorEnd>
+         <gradientType>vertical</gradientType>
+         <zIndex>0</zIndex>
+      </image>
+      
       </view>
    </variant>
    <view name="all">
